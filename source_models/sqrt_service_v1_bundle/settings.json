@@ -1,0 +1,5 @@
+{
+  "service": "square-root",
+  "version": "v1",
+  "multiplier": 1.0
+}
