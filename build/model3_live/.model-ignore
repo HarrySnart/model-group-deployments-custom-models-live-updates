@@ -1,0 +1,46 @@
+# Copyright (c) 2020, 2022 Oracle and/or its affiliates.
+# Licensed under the Universal Permissive License v 1.0 as shown at https://oss.oracle.com/licenses/upl/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+# NOTE: do not ignore a folder named `build/` because this repo deliberately
+# stages OCI model artifacts under a build directory before upload.
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# pytest / mypy
+.pytest_cache/
+.mypy_cache/
+
+# logs
+logs/
+*.log
+
+# macOS
+.DS_Store
